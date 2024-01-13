@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../assets/brand_logo.png";
-import { BrowserRouter, Link } from 'react-router-dom';
-import './styling/Navbar.css'
+import { BrowserRouter, Link } from "react-router-dom";
+import "./styling/Navbar.css";
 function Navbar() {
   return (
     <>
@@ -13,20 +13,20 @@ function Navbar() {
         {/* middle part */}
         <div className="navbar__middle">
           <BrowserRouter>
-        <ul className="navbar__links">
-        <li className="navbar__routes">
-          <Link to="/">MENU</Link>
-        </li>
-        <li className="navbar__routes">
-          <Link to="/">LOCATION</Link>
-        </li>
-        <li className="navbar__routes">
-          <Link to="/about">ABOUT</Link>
-        </li>
-        <li className="navbar__routes">
-          <Link to="/contact">CONTACT</Link>
-        </li>
-      </ul>
+            <ul className="navbar__links">
+              <li className="navbar__routes">
+                <Link to="/">MENU</Link>
+              </li>
+              <li className="navbar__routes">
+                <Link to="/">LOCATION</Link>
+              </li>
+              <li className="navbar__routes">
+                <Link to="/about">ABOUT</Link>
+              </li>
+              <li className="navbar__routes">
+                <Link to="/contact">CONTACT</Link>
+              </li>
+            </ul>
           </BrowserRouter>
         </div>
         {/* right part */}

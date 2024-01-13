@@ -1,0 +1,9 @@
+.rightBanner__{
+    width: 60vw;
+    height: 90vh;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start ;
+
+}
